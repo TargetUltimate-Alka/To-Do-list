@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List By Alka Jha</title>
+    <link rel ="stylesheet" href ="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class ="todo-app">
+            <h2>
+                To-Do List <img src ="images/icon.png">
+            </h2>
+            <div class="row">
+                <input type="text" id ="input-box" placeholder="Add your text">
+                <input type="date" id="date-box">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <p id="selected-date"></p>
+            <ul id="list-container">
+                <li class="checked">List 1</li>
+                <li>List 2</li>
+                <li>List 3</li>
+            </ul>
+
+        </div>
+
+    </div>
+    <script src="script.js">
+        </script>
+    
+</body>
+</html>
